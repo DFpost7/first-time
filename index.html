@@ -1,0 +1,96 @@
+﻿﻿<html>
+<heat>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<style> 
+      form {
+    padding: 19px;
+    background-image: url("http://www.sololearn.com/images/tree.jpg");
+    width: 500px; height: 500px;
+ border-radius: 50%;
+ background-size: cover;
+ /*text-align: center;*/
+/* background- text-align: center : auto 300px;*/
+    color: white;   
+   border-collapse: 20px;
+   }div, form{
+   position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%) }
+/*
+button:before:{
+    content: url("http://www.sololearn.com/images/bullet.jpg");
+}*/
+
+input {
+   padding: 1px; 
+   color: #0089FF;
+   font-size: 16px;
+   font-family: ariel;
+   border-radius: 20px;
+ }
+        </style>
+</heat>
+    <form><section>
+          <div class="usa"><center><h1><p id="demo"> Megic 🌲 tree </p>
+         <button type="reset" id="bip" onclick="parus()"> This is true </button>
+              <p>
+               <input id="re" type="">  
+               <p><button onclick="info()">i</button></h1> </center> </div>
+       </section> </form>
+<script>
+    //calling the function in window.onload to make sure the HTML is load
+var psnow = confirm ("I speak English ")
+var coc,aa,ff,dd,errunda;
+var dir;
+var d = 0;
+if (psnow==true){
+    d++
+}
+if (psnow ==1) {
+
+        document.getElementById("bip").innerHTML=" This is true";
+    alert (" ask the tree, just remember! it answers is limited, it is 🌲 tree :)) I do not accept short words! and i'm not a magic ball ")
+    errunda=(" what does it mean? ");
+    dir =("go it");
+    coc = ["no", "no", "yes"," possibly"," unlikely ","not sure"," that's for sure", "logical", "unclear","why?" ]; 
+        
+}else{
+
+
+ document.getElementById("bip").innerHTML="это так?";
+coc = [" не", " нет", " да"," может быть"," не вкурсе ","вероятно","наверно","логично","не логично"]; 
+  dir =("о чём вы");
+  errunda = ("что это значит?");
+    alert ("Спроси у дерева! Все что волнует и оно ответит, но учти! ответы у него ограничены!Оно же 🌲 дерево:)) а также не понимает короткие слова!");
+        
+
+} function f(){
+ var fucks = new Audio('https://www.neizvestniy-geniy.ru/mp3/2019/07/2046743.mp3'); fucks.play();
+ }
+ function parus() {
+
+    var aa = document.getElementById("re").value;
+    var ff = document.getElementById("re");
+    if (aa.value =! ff.value){
+        alert (dir);
+        }else {
+        if (aa.length > 4){
+        f();
+        gop();}else {
+            alert (errunda );
+        }
+        
+    }
+
+         
+        
+    } function gop(){
+    var more = Math.ceil(Math.random()*8);
+    var fuck = coc[more]; document.getElementById("demo").innerHTML = fuck  
+}
+function info(){
+alert("Вас приветствует магическое дерево, растущее в глубокой дремучей деревне Пурдошки, оно было их божественным деревом (бог примудрости), но вскоре деревня вымерла а дерево осталось, оно стало еще мудрее со временем, и было обнаружено одним егерем , который утомился посл долекого странствия по лесу и прилег поддерево. Пока что я понимаю только письменный вопрос введеный в форму под кнопкой, и после ввода слова нажми на кнопку , но учти я не понимаю слова меньше 4 букв, хорошего общения! © D F post 2019 A magical tree growing in a deep dense village, it was their divine tree (god of wisdom), but soon the village died out and the tree remained, it became even wiser withh time, and it was discovered by one farmer who got tired after a wandering road through the forest and lay down tree ")
+}
+//no posibol; этот код не откуда не позоимствован {}}}
+</script>
+</html>
